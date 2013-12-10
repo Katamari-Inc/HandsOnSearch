@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+.settings
+.project
+.actionScriptProperties
+ */.idea/workspace.xml
+ */.idea/tasks.xml 
+ 

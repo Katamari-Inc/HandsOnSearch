@@ -1,0 +1,38 @@
+{
+  "thingiverse_access_token": "<your-access-token-here>",
+
+  "presets": {
+    "0": {
+      "name": "Standard",
+      "volume": 60000
+    },
+    "1": {
+      "name": "Instant",
+      "volume": 3000
+    },
+    "2": {
+      "name": "Large",
+      "volume": 120000
+    },
+    "3": {
+      "name": "Small",
+      "volume": 30000
+    },
+    "4": {
+      "name": "Preset4",
+      "volume": 20000
+    },
+    "5": {
+      "name": "Preset5",
+      "volume": 90000
+    },
+    "6": {
+      "name": "Preset6",
+      "volume": 150000
+    },
+    "99": {
+      "name": "no use",
+      "volume": 0
+    }
+  }
+}

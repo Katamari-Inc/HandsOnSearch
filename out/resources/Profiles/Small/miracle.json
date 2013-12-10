@@ -1,0 +1,195 @@
+{
+    "comment" : [
+     "This is a custom profile for MakerBot Slicer. Editing it will modify your",
+      "slice settings. For documentation on MakerBot Slicer parameters, see here:",
+      "http://www.makerbot.com/support/makerware/documentation/slicer"
+    ], 
+    "version":"2.2.0",
+    
+    "layerHeightMinimum": 0.12,
+    "layerHeightMaximum": 0.27,
+
+    "layerHeight": 0.20, 
+    "layerWidthMaximum": 0.4, 
+    "layerWidthMinimum": 0.4, 
+    "layerWidthRatio": 1.481481, 
+    "bedZOffset": 0.0, 
+    "startX": -110.4, 
+    "startY": -74.0, 
+    "startZ": 0.2, 
+    "defaultExtruder": 0, 
+
+    "rapidMoveFeedRateXY": 150, 
+    "rapidMoveFeedRateZ": 23, 
+
+    "minLayerDuration": 5.0, 
+    "minSpeedMultiplier": 0.3, 
+    
+    "doDynamicSpeed": false, 
+    "dynamicSpeedCurvatureThreshold": 15, 
+    "dynamicSpeedDetectionWindow": 3.0, 
+    "dynamicSpeedSlowdownRatio": 0.3, 
+    "doDynamicSpeedGradually": true,
+    "dynamicSpeedTransitionWindow": 6.0,
+    "dynamicSpeedTransitionShape": 0.4,
+    "doDynamicSpeedOutermostShell" : true, 
+    "doDynamicSpeedInteriorShells" : false, 
+    
+    "doSplitLongMoves": true, 
+    "splitMinimumDistance": 0.4, 
+
+    "extruderTemp0": 230, 
+    "extruderTemp1": 230, 
+    "platformTemp": 0, 
+
+    "numberOfShells": 2, 
+    "infillShellSpacingMultiplier": 0.7, 
+    "insetDistanceMultiplier": 1.0, 
+
+    "roofThickness": 0.8, 
+    "roofLayerCount_disabled": 4, 
+    "roofAnchorMargin": 0.4,
+    "floorThickness": 0.8, 
+    "floorLayerCount_disabled": 4, 
+
+    "coarseness": 0.0001, 
+
+    "sparseInfillPattern": "hexagonal", 
+    "infillDensity": 0.05, 
+    "infillOrientationOffset": 0,
+    "infillOrientationInterval": 90, 
+    "infillOrientationRange": 90,
+
+    "gridSpacingMultiplier": 0.99, 
+    "solidFillOrientationOffset" : -45,
+    "solidFillOrientationInterval": 90, 
+    "solidFillOrientationRange": 90,
+
+    "doBacklashCompensation": false, 
+    "backlashEpsilon": 0.05, 
+    "backlashFeedback": 0.9, 
+    "backlashX": 0.0, 
+    "backlashY": 0.09, 
+
+    "doBridging": true, 
+    "bridgeAnchorMinimumLength": 0.8, 
+    "bridgeAnchorWidth": 0.8, 
+    "bridgeMaximumLength": 80.0, 
+    "bridgeSpacingMultiplier": 1.0, 
+
+    "doExternalSpurs": true, 
+    "doInternalSpurs": false, 
+    "maxSpurWidth": 0.5, 
+    "minSpurLength": 0.4, 
+    "minSpurWidth": 0.12, 
+    "spurOverlap": 0.001, 
+
+    "doRaft": true, 
+    "raftAligned": true, 
+    "raftBaseAngle": 0, 
+    "raftBaseDensity": 0.7, 
+    "raftBaseLayers": 1, 
+    "raftBaseRunGapRatio": 0.8, 
+    "raftBaseRunLength": 15.0, 
+    "raftBaseThickness": 0.3, 
+    "raftBaseWidth": 2.5, 
+    "raftInterfaceAngle": 45, 
+    "raftInterfaceDensity": 0.3, 
+    "raftInterfaceLayers": 1, 
+    "raftInterfaceThickness": 0.27, 
+    "raftInterfaceWidth": 0.4, 
+    "raftModelSpacing": 0.21, 
+    "raftOutset": 4, 
+    "raftSurfaceAngle": 0, 
+    "raftSurfaceLayers": 2, 
+    "raftSurfaceThickness": 0.27, 
+ 
+    "anchorWidth": 2.0,
+    "anchorExtrusionAmount": 5.0,
+    "anchorExtrusionSpeed": 2.0,
+
+    "doSupport": true, 
+    "doSupportUnderBridges": false, 
+    "supportAligned": true, 
+    "supportLeakyConnections": true, 
+    "supportDensity": 0.2, 
+    "supportExtraDistance": 0.5, 
+    "supportAngle": 68.0, 
+    "supportModelSpacing": 0.4, 
+    "supportExcessive": false,
+
+    "doFanCommand": true, 
+    "fanLayer": 1, 
+    "weightedFanCommand": -1,
+
+    "doPrintProgress": true, 
+
+    "startGcode": "", 
+    "endGcode": "", 
+
+    "commentClose": "", 
+    "commentOpen": ";", 
+
+    "extruderProfiles": [
+        {
+            "bridgesExtrusionProfile": "bridges", 
+            "feedDiameter": 1.77, 
+            "feedstockMultiplier": 0.93, 
+            "firstLayerExtrusionProfile": "firstlayer", 
+            "firstLayerRaftExtrusionProfile": "firstlayerraft", 
+            "infillsExtrusionProfile": "infill", 
+            "insetsExtrusionProfile": "insets", 
+            "nozzleDiameter": 0.4, 
+            "outlinesExtrusionProfile": "outlines", 
+            "raftBaseExtrusionProfile": "raftbase", 
+            "restartExtraDistance": 0.0, 
+            "retractDistance": 1.3, 
+            "retractRate": 25
+        }, 
+        {
+            "bridgesExtrusionProfile": "bridges", 
+            "feedDiameter": 1.77, 
+            "feedstockMultiplier": 0.93, 
+            "firstLayerExtrusionProfile": "firstlayer", 
+            "firstLayerRaftExtrusionProfile": "firstlayerraft", 
+            "infillsExtrusionProfile": "infill", 
+            "insetsExtrusionProfile": "insets", 
+            "nozzleDiameter": 0.4, 
+            "outlinesExtrusionProfile": "outlines", 
+            "raftBaseExtrusionProfile": "raftbase", 
+            "restartExtraDistance": 0.0, 
+            "retractDistance": 1.3, 
+            "retractRate": 25
+        }
+    ], 
+    "extrusionProfiles": {
+        "bridges": {
+            "feedrate": 40, 
+            "temperature_disabled": 230.0
+        }, 
+        "firstlayer": {
+            "feedrate": 30, 
+            "temperature_disabled": 230.0
+        }, 
+        "firstlayerraft": {
+            "feedrate": 50, 
+            "temperature_disabled": 230.0
+        }, 
+        "infill": {
+            "feedrate": 90, 
+            "temperature_disabled": 230.0
+        }, 
+        "insets": {
+            "feedrate": 90, 
+            "temperature_disabled": 230.0
+        }, 
+        "outlines": {
+            "feedrate": 40, 
+            "temperature_disabled": 230.0
+        }, 
+        "raftbase": {
+            "feedrate": 10, 
+            "temperature_disabled": 230.0
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+   "machine_type" : [
+      "replicator_single",
+      "replicator_dual",
+      "replicator_2",
+      "replicator_2x",
+      "thing_o_matic_single",
+      "thing_o_matic_dual"
+   ],
+   "slicer" : "miraclegrue"
+}

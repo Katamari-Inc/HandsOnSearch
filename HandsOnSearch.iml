@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="HandsOnSearch">
+    <configurations>
+      <configuration name="HandsOnSearch" target-platform="Desktop" pure-as="true" main-class="HandsOnSearch" output-file="HandsOnSearch.swf" output-folder="$MODULE_DIR$/out">
+        <dependencies target-player="11.8">
+          <entries>
+            <entry library-name="MinimalComps_0_9_10" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="as3commons-logging-2.7" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Tween24_2.0.1" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="as3-signals-v0.8" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="design-assets" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="SAQAS3" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="AS3-State-Machine" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="4.6.0.23201B" />
+        </dependencies>
+        <compiler-options>
+          <option name="resourceFilesMode" value="None" />
+        </compiler-options>
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/HandsOnSearch-app.xml" package-file-name="HandsOnSearch">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/out/resources" path-in-package="resources" />
+          </files-to-package>
+        </packaging-air-desktop>
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.settings" />
+    </content>
+    <orderEntry type="jdk" jdkName="4.6.0.23201B" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="MinimalComps_0_9_10" level="project" />
+    <orderEntry type="library" exported="" name="as3commons-logging-2.7" level="project" />
+    <orderEntry type="library" exported="" name="Tween24_2.0.1" level="project" />
+    <orderEntry type="library" exported="" name="as3-signals-v0.8" level="project" />
+    <orderEntry type="library" exported="" name="design-assets" level="project" />
+    <orderEntry type="library" exported="" name="SAQAS3" level="project" />
+    <orderEntry type="library" exported="" name="AS3-State-Machine" level="project" />
+  </component>
+</module>
+
