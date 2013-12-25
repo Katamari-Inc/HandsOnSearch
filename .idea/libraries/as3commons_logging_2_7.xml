@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="as3commons-logging-2.7" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/as3commons-logging-2.7.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

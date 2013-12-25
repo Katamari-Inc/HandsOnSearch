@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="as3-signals-v0.8" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/as3-signals-v0.8.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

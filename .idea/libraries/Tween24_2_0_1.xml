@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Tween24_2.0.1" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Tween24_2.0.1.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

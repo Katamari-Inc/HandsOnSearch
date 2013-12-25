@@ -3,6 +3,5 @@
 .settings
 .project
 .actionScriptProperties
- */.idea/workspace.xml
- */.idea/tasks.xml 
- 
+**/.idea/workspace.xml
+**/.idea/tasks.xml 

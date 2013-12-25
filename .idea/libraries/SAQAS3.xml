@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SAQAS3" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/SAQAS3" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

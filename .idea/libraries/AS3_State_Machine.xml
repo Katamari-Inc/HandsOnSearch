@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AS3-State-Machine" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/AS3-State-Machine" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
